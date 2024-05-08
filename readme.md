@@ -6,6 +6,7 @@
  ## Installation
     - npm i express
     - npm i mongoose
+    - npm i dotenv
 
 
 ## Application
