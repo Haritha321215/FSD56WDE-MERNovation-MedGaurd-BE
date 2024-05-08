@@ -7,6 +7,7 @@
     - npm i express
     - npm i mongoose
     - npm i dotenv
+    - npm install --save-dev nodemon
 
 
 ## Application
@@ -44,13 +45,3 @@
 
 
 
-
-
-  npm i mongoose
-  npm i dotenv  -(library to handle .envfiles)
-  npm i express
-  npm install --save-dev nodemon
-  npm i jsonwebtoken
-  npm i cors
-  npm i cookie-parser
-  npm i morgan  // log
