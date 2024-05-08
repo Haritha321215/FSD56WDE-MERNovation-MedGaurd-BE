@@ -1,0 +1,23 @@
+{
+  "name": "medgaurd-be",
+  "version": "1.0.0",
+  "description": "MedGaurd Application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Haritha321215/FSD56WDE-MERNovation-MedGaurd-BE.git"
+  },
+  "author": "Haritha Reddy G",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Haritha321215/FSD56WDE-MERNovation-MedGaurd-BE/issues"
+  },
+  "homepage": "https://github.com/Haritha321215/FSD56WDE-MERNovation-MedGaurd-BE#readme",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "mongoose": "^8.3.4"
+  }
+}
