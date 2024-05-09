@@ -1,28 +1,37 @@
-# Backend application
- This repository contains the backend application of the MedGaurd Application
+# MedGaurd Application User Management Backend
+### Description
+This is a backend application built with Node.js, Express, and MongoDB for user management. It provides RESTful APIs for user authentication, registration, profile management, and other user-related functionalities.
 
- back end application in a RESTful API built with Node.js and Express.js. it uses MongoDB as the database,
+### Features
+- User authentication (login, logout)
+- User registration
+- User profile management (update profile, change password)
+- CRUD operations for user data
 
- ## Installation
-    - npm i express
-    - npm i mongoose
-    - npm i dotenv
-    - npm install --save-dev nodemon
+### Technologies Used
+- Node.js
+- Express
+- MongoDB
+- Mongoose (MongoDB ODM)
+- JSON Web Tokens (JWT) for authentication
+- bcryptjs for password hashing
+- Morgan for log requests to the console
+
+ ### Installation
+    - Express- npm i express
+    - Mongoose - npm i mongoose
+    - Dotenv - npm i dotenv
+    - Nodemon npm install --save-dev nodemon
+    - Bcrypt - npm i bcrypt
+    - Cookie-parser - npm i cookie-parser
+    - Cors - npm i cors
+    - Json web token - npm i jsonwebtoken
+    - Morgan - npm i morgan console
+
+### Server Configuration
+    - Ensure that the application in running on server port 3006
 
 
-## Application
-
-## Features
- - [x] User registration
- - [x] User login
-
-
-
-- [] User Dashboard
-    - [] View Profile
-    - [] Update Profile
-    - [] Delete Profile
-    - [] Logout
 
 ## API Endpoints
 
@@ -38,8 +47,6 @@
 
 ## Licences
 
-## Libraries Used
-  - mongoose : Mongodb object modeling tool. It is used to interact with Mongodb database. We use this instead of mongodb driver because it provides a sample schema-based solution to model our application data.
 
 
 

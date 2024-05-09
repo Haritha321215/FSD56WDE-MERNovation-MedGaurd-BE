@@ -7,7 +7,7 @@ const cors = require("cors");
 //require cookie-parser
 const cookieParser = require("cookie-parser");
 
-// require morgan fpr logs
+// require morgan for logs
 const morgan = require("morgan");
 
 //import user router
