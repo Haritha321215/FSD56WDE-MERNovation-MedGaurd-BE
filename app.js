@@ -19,7 +19,8 @@ const app = express();
 //enable cors requests from http://localhost:5173
 app.use(
   cors({
-    origin: "https://fsd56wde-mernovation-medgaurd-fe.netlify.app", 
+    // origin: "https://fsd56wde-mernovation-medgaurd-fe.netlify.app", 
+    origin: "http://localhost:5173", 
     credentials: true,
   })
 );
