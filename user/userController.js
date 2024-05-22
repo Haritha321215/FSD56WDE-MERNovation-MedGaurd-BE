@@ -1,4 +1,4 @@
-// business logic
+ // business logic
 
 // import the user model
 const User = require("./userModel");
@@ -25,7 +25,7 @@ const userController = {
       // console.log(request.body);
 
       // destructure the request body
-      const { username, password, name, location,role } = request.body;
+      const { username, password, name, location,role,fcmToken } = request.body;
 
       // checks if the user is already in the database
       // need to create user model
@@ -47,6 +47,7 @@ const userController = {
         name,
         location,
 				role,
+        fcmToken,
       });
 
       // save the user in database
@@ -136,7 +137,7 @@ const userController = {
       const userId = request.userId;
       // get user inputs from the requestbody
       const { name, location } = request.body;
-
+      console.log(name, location);
       // find the user by id from the database
       const user = await User.findById(userId);
 

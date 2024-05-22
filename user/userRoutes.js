@@ -16,13 +16,11 @@ userRouter.get("/profile", auth.verifyToken, userController.getUser); //  protec
 userRouter.put(
   "/profile",
   auth.verifyToken,
-  auth.isAdmin,
   userController.updateUser
 ); // protected-user needs to be authenticated
 userRouter.delete(
   "/profile",
   auth.verifyToken,
-  auth.isAdmin,
   userController.deleteUser
 ); // protected-user needs to be authenticated
 

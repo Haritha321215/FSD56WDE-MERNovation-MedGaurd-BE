@@ -12,7 +12,10 @@ const morgan = require("morgan");
 
 //import user router
 const userRouter = require("./user/userRoutes");
-
+//import medication router
+const medicationRouter = require("./medication/medicationRoutes");
+// const notificationRoutes = require("./notification/notificationRoutes");
+const patientRouter = require("./patient/patientRoutes");
 // create an express application
 const app = express();
 
@@ -36,6 +39,9 @@ app.use(express.json());
 
 //define the end points
 app.use("/api/users", userRouter);
+app.use("/api/medications", medicationRouter);
+// app.use("/api/notifications", notificationRoutes);
+app.use("/api/patients", patientRouter);
 
 // export the app module
 module.exports = app;
